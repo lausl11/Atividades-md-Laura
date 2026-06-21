@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(58, 58, 135);
+    text-align: center;
+    align-items: center;
+}
+nav{
+    font-size: 60px;
+    color: rgb(8, 12, 54);
+}
+h2{
+    font-size: 100px;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.3);
+    background-color: rgb(123, 131, 222);
+    border-radius: 25px;
+}
+p{
+    font-size: 50px;
+}
