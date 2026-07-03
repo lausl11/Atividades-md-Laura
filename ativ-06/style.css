@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(168, 197, 229);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #3773ac;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #64a1ca;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    padding: 60px 20px;
+    font-size: 1.3rem;
+    border: 8px solid rgb(162, 223, 197);
+    box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.15);
+    color: white;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+table {
+    background-color: rgb(199, 223, 221);
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 60px auto 0 auto;    
+    padding: 14px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #64a1ca;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    min-width: 200px;             
+}
+
+.btn:hover {
+    background-color: #4a8ab8;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #64a1ca;
+    color: white;
+    text-align: center;
+}
+
+td {
+    background-color: #e0f0e8;
+}
+
+@media (max-width: 768px) 
+
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #164472;
+      margin-top: 90px
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Formulário de nova tarefa */
+    .nova-tarefa {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 40px;
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .nova-tarefa input {
+      flex: 1;
+      padding: 14px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1.1rem;
+    }
+
+    .nova-tarefa button {
+      padding: 0 25px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .lista-tarefas {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .card-tarefa {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.3s;
+    }
+
+    .card-tarefa:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-tarefa.concluida {
+      opacity: 0.7;
+      text-decoration: line-through;
+      background-color: #f8f9fa;
+    }
+
+    .tarefa-texto {
+      font-size: 1.2rem;
+      flex: 1;
+    }
+
+    .acoes {
+      display: flex;
+      gap: 8px;
+    }
+
+    .acoes button {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .btn-concluir {
+      background-color: #27ae60;
+      color: white;
+    }
+
+    .btn-excluir {
+      background-color: #e74c3c;
+      color: white;
+    }
+    
